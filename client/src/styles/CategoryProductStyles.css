@@ -1,0 +1,44 @@
+.category {
+    flex-wrap: wrap;
+    margin-top: 80px !important;
+  }
+  
+  .category .card {
+    background-color: rgba(75, 83, 32, 0.097); /* Olive Drab with transparency */
+    width: 18rem;
+  }
+  
+  .category .card-name-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .category .card-price {
+    color: #556b2f; /* Dark Olive Green */
+    font-weight: bold;
+  }
+  
+  .category button {
+    border-radius: 0;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #8b4513; /* Saddle Brown */
+    color: #fff; /* White text for contrast */
+  }
+  
+  .category .card-text {
+    color: #5a5959; /* Darker gray */
+  }
+  
+  .category .card img:hover {
+    transform: scale(0.9);
+  }
+  
+  .category .card-img-top {
+    height: 300px !important;
+  }
+  
