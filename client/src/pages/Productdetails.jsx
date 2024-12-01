@@ -90,6 +90,7 @@ const ProductDetails = () => {
                       style: "currency",
                       currency: "INR",
                     })}
+                  
                   </h5>
                 </div>
                 <p className="card-text ">
